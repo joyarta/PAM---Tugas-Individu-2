@@ -44,9 +44,7 @@ Berikut ini adalah contoh dari higher order function.
 ## 5. Execution Context
 `Execution Context` didefinsikan sebagai konteks atau lingkungan dimana javascript di eksekusi. Execution Context merupakan pembungkus yang mengelola code yang sedang di jalankan. Execution Context terbagi menjadi 2 yaitu Global Execution Context dan Local Execution Context. Dan dalam javascript terdapat 2 fase (2 Phase) pada saat Execution Context yaitu creation phase dan execution phase. Ketika javascript pertama kali di eksekusi, ia akan menjalankan Creation Phase yaitu javascript mengangkat(menghoisting) seluruh variabel dan function ke atas atau dalam visualisasi ke dalam global frame, kemudian menginisiasi variabelnya dengan undefined dan menginisiasi function dengan function itu sendiri. Setelah Creation Phase dijalankan javascript akan menjalankan code secara synchron(Sinkronis) dari atas kebawah dan disinilah Execution Phase terjadi. Lebih jelasnya berikut adalah contoh kasusnya :
 
-
-
-
+![7](https://user-images.githubusercontent.com/100962621/193550086-38e78e7e-be05-45c5-aa77-2182e89da140.PNG)
 
 ## 6. Execution Stack
 ## 7. Event Loop
