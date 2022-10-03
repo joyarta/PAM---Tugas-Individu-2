@@ -31,6 +31,7 @@ Berikut adalah contoh IIFE dengan parameter.
 
 Kita bisa assign anonymous function ke dalam variabel, objek, dan array dimana isi function tersebut dapat di return apabila ditambahkan tanda kurung dibagian akhir sewaktu proses pemanggilan. Dengan memberi nama pada variabel maka akan membantu proses debug code nya. Berikut adalah contoh passing a function sebagai argumen.
 
+
 ## 4. Higher-order function
 ## 5. Execution Context
 ## 6. Execution Stack
