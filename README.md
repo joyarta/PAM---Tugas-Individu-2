@@ -56,11 +56,21 @@ Pertama, code dijalankan ke mesin JS. Setelah itu, mesin JS membuat GEC dan mene
 
 
 ## 7. Event Loop
+`Event Loop` adalah aspek kontrol pusat dan konstruksi dalam program yang mengontrol dan mengirimkan peristiwa setelah peristiwa awal. Acara awal bisa apa saja, termasuk menekan tombol pada keyboard atau mengklik tombol pada program.
+
 ## 8. Callbacks
 Dalam Javascript, fungsi `Callback` adalah fungsi yang diteruskan ke fungsi lain sebagai argumen. (Lihat poin 3). Fungsi ini kemudian dapat dipanggil selama eksekusi fungsi urutan yang lebih tinggi karena dalam javascript, fungsi adalah objek yang dapat diteruskan sebagai argumen.
 
 ![5](https://user-images.githubusercontent.com/100962621/193526748-7fc553c7-d047-4ed4-94f7-5dedaeed71df.PNG)
 
 Dari contoh diatas dapat dilihat bahwa kita mempassing fungsi katakanHai() kedalam fungsi salam() sebagai argumen. Fungsi yang dipassing sebagai argumen pada fungsi lain dinamakan `Callback Function`. Sehingga dengan kata lain fungsi katakanHai() adalah yang dinamakan Callback Function.
+
 ## 9. Promises dan Async/Await
+
+`Async` adalah sintaksis spesial untuk bekerja dengan promise dengan cara yang lebih nyaman, dipanggil “async/await”. Ini sangat mudah dipahami dan digunakan. Fungsi Async yaitu mulai dengan keyword `async`. keyword ini dapat ditempatkan sebelum fungsi, seperti ini : `async function f()`. Kata “async” sebelum fungsi berarti satu hal sederhana yaitu fungsi tersebut selalu mengembalikkan promise. Value lain dibungkus didalam promise yang resolve secara otomatis. Jadi, async memastikan bahwa fungsi mengembalikkan promise, dan membungkus non-promise di dalamnya.
+
+`Await` adalah keyword yang membuat JavaScript menunggu sampai promise tersebut selesai dan mengembalikkan hasilnya. Berikut adalah contoh kasusnya dengan menggunakan promise.
+
+
+Eksekusi fungsi tersebut “dipause” pada baris (*) dan dilanjutkan ketika promise selesai, dengan result menjadi hasilnya. Jadi kode di atas menunjukkan “done!” dalam satu detik. Await benar-benar membuat JavaScript menunggu sampai promise selesai, lalu lanjutkan dengan hasilnya. Hal tersebut tidak membebani resource CPU apapun, karena mesin dapat melakukan pekerjaan lain sementara itu: eksekusi script lain, menangani event dan lain-lain.
 
