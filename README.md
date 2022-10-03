@@ -47,6 +47,16 @@ Berikut ini adalah contoh dari higher order function.
 ![7](https://user-images.githubusercontent.com/100962621/193550086-38e78e7e-be05-45c5-aa77-2182e89da140.PNG)
 
 ## 6. Execution Stack
+`Execution Stack` atau dikenal sebagai `Call Stack` berfungsi melacak semua Execution Context yang dibuat selama siklus yang bekerja. JavaScript adalah bahasa single threaded yang berarti bahwa ia hanya mampu menjalankan satu tugas pada satu waktu. Jadi ketika tindakan, fungsi, dan peristiwa lain terjadi, Execution Context dibuat untuk masing-masing peristiwa ini karena sifat JavaScript single-threaded, tumpukan Execution context yang akan dieksekusi dibuat, yang dikenal sebagai Execution Stack.
+Saat code dijalankan, Global Context dibuat sebagai default context tempat mesin JS mulai mengeksekusi kode dan ditempatkan di bagian bawah execution stack. Mesin JS kemudian mencari panggilan fungsi dalam kode. Untuk setiap panggilan fungsi, FEC baru dibuat untuk fungsi itu dan ditempatkan di atas execution context yang sedang dijalankan. Execution context yang terletak di bagian atas stack menjadi execution context yang aktif dan akan selalu dieksekusi terlebih dahulu oleh mesin JS. Segera setelah eksekusi semua kode dalam execution context aktif selesai, mesin JS mengeluarkan fungsi execution context tertentu dari stack, bergerak ke arah berikutnya di bawahnya, dan seterusnya. Untuk memahami proses kerja tumpukan eksekusi, perhatikan contoh kode di bawah ini:
+
+
+Pertama, skrip dimuat ke mesin JS. Setelah itu, mesin JS membuat GEC dan menempatkannya di dasar tumpukan eksekusi. Variabel namedidefinisikan di luar fungsi apa pun, jadi ada di GEC dan disimpan di VO-nya. Proses yang sama terjadi untuk first, second, dan thirdfungsi. etika mesin JS menemukan firstpanggilan fungsi, FEC baru dibuat untuknya. Konteks baru ini ditempatkan di atas konteks saat ini, membentuk apa yang disebut Execution Stack.
+Selama firstpemanggilan fungsi, Konteks Eksekusinya menjadi konteks aktif tempat kode JavaScript pertama kali dieksekusi.
+Dalam firstfungsi, variabel a = 'Hi!'disimpan di FEC-nya, bukan di GEC.
+Selanjutnya, secondfungsi dipanggil di dalam firstfungsi.
+Eksekusi firstfungsi akan dijeda karena sifat JavaScript utas tunggal. Itu harus menunggu sampai eksekusinya, yaitu secondfungsinya, selesai.
+Sekali lagi mesin JS menyiapkan FEC baru untuk secondfungsi tersebut dan menempatkannya di bagian atas tumpukan, menjadikannya konteks aktif.
 ## 7. Event Loop
 ## 8. Callbacks
 Dalam Javascript, fungsi `Callback` adalah fungsi yang diteruskan ke fungsi lain sebagai argumen. (Lihat poin 3). Fungsi ini kemudian dapat dipanggil selama eksekusi fungsi urutan yang lebih tinggi karena dalam javascript, fungsi adalah objek yang dapat diteruskan sebagai argumen.
