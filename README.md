@@ -25,7 +25,11 @@ Berikut adalah contoh IIFE dengan parameter.
 ![3](https://user-images.githubusercontent.com/100962621/193518080-62e008cf-8dc8-4a58-b73e-8c2c44eb1e10.PNG)
 
 ## 3. First-class function
-`First Class Function` adalah salah satu fungsi dalam javascript yang dapat menerapkan fungsi kedalam variabel, objek, ataupun array. Selain itu fungsi ini juga dapat di passing sebagai argument pada fungsi serta dapat juga mengembalikan fungsi. Berikut adalah contoh penerapan fungsi ke dalam variabel, objek, dan array.
+`First Class Function` adalah salah satu fungsi dalam javascript yang dapat menerapkan fungsi kedalam variabel, objek, ataupun array. Selain itu fungsi ini juga dapat di passing sebagai argument pada fungsi. Berikut adalah contoh penerapan fungsi ke dalam variabel, objek, dan array.
+
+![4](https://user-images.githubusercontent.com/100962621/193523501-cd6fb9eb-835f-40b8-b09f-3b2daa3fb443.PNG)
+
+Kita bisa assign anonymous function ke dalam variabel, objek, dan array dimana isi function tersebut dapat di return apabila ditambahkan tanda kurung dibagian akhir sewaktu proses pemanggilan. Dengan memberi nama pada variabel maka akan membantu proses debug code nya. Berikut adalah contoh passing a function sebagai argumen.
 
 ## 4. Higher-order function
 ## 5. Execution Context
