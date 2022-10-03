@@ -15,7 +15,13 @@ fungsi `panggilUniv` sebagai fungsi pemanggilan.
 fungsi yang memanggil dirinya sendiri. Untuk membuat IIFE kita bisa menggunakan dua pasang kurung buka dan tutup berdampingan `(function) (parameter)`.
 Kurung pertama adalah tempat untuk mendeklarasikan Anonymous Function Expression dan kurung kedua digunakan untuk memanggil fungsi tersebut. Jika fungsi memiliki
 parameter maka kita bisa meneruskan nilai atau argumen ke dalam kurung kedua.
+
 Berikut adalah contoh IIFE tanpa parameter.
+
+![2](https://user-images.githubusercontent.com/100962621/193516890-1a662314-75f8-479f-81c6-a5596c17f018.PNG)
+
+Berikut adalah contoh IIFE dengan parameter.
+
 
 
 
