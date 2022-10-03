@@ -59,6 +59,7 @@ Pertama, code dijalankan ke mesin JS. Setelah itu, mesin JS membuat GEC dan mene
 `Event Loop` adalah aspek kontrol pusat dan konstruksi dalam program yang mengontrol dan mengirimkan peristiwa setelah peristiwa awal. Acara awal bisa apa saja, termasuk menekan tombol pada keyboard atau mengklik tombol pada program.
 Contoh :
 
+![event code](https://user-images.githubusercontent.com/100962621/193602253-1afe95f6-cf18-4927-8207-a9c13c561b51.PNG)
 
 ## 8. Callbacks
 Dalam Javascript, fungsi `Callback` adalah fungsi yang diteruskan ke fungsi lain sebagai argumen. (Lihat poin 3). Fungsi ini kemudian dapat dipanggil selama eksekusi fungsi urutan yang lebih tinggi karena dalam javascript, fungsi adalah objek yang dapat diteruskan sebagai argumen.
