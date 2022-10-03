@@ -69,6 +69,7 @@ Dari contoh diatas dapat dilihat bahwa kita mempassing fungsi katakanHai() kedal
 
 `Promises` adalah objek Javascript khusus yang menghubungkan “kode produksi” dan “kode pengkonsumi” secara bersamaan. Dalam analogi ini adalah “daftar berlangganan”. “Kode produksi” membutuhkan waktu berapa pun untuk menghasilkan hasil yang dijanjikan, dan “Promise” membuat hasil tersebut tersedia untuk semua kode yang berlangganan ketika hasilnya sudah siap. Analogi ini tidak terlalu akurat, karena promise JavaScript lebih kompleks dari daftar berlangganan sederhana: daftar tersebut memiliki fitur dan batasan tambahan. Syntax constructor untuk objek promise adalah:
 
+![promise](https://user-images.githubusercontent.com/100962621/193583974-f96985ab-a17a-40c5-8991-c6b0c480fda8.PNG)
 
 
 `Async` adalah sintaksis spesial untuk bekerja dengan promise dengan cara yang lebih nyaman, dipanggil “async/await”. Ini sangat mudah dipahami dan digunakan. Fungsi Async yaitu mulai dengan keyword `async`. keyword ini dapat ditempatkan sebelum fungsi, seperti ini : `async function f()`. Kata “async” sebelum fungsi berarti satu hal sederhana yaitu fungsi tersebut selalu mengembalikkan promise. Value lain dibungkus didalam promise yang resolve secara otomatis. Jadi, async memastikan bahwa fungsi mengembalikkan promise, dan membungkus non-promise di dalamnya.
