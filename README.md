@@ -7,7 +7,8 @@ Contoh :
 
 ![1](https://user-images.githubusercontent.com/100962621/193505774-7337d6b8-02c3-45cd-88e8-b176501bd1eb.PNG)
 
-Dalam contoh diatas, mendeklarasikan
+Dalam contoh diatas, mendeklarasikan variabel lokal yang disebut `universitas` dan membuat fungsi `tampilUniv` sebagai fungsi dalamnya. Selain itu, terdapat pula
+fungsi `panggilUniv` sebagai fungsi pemanggilan.
 
 
 
