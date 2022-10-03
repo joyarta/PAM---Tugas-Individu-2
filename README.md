@@ -57,6 +57,8 @@ Pertama, code dijalankan ke mesin JS. Setelah itu, mesin JS membuat GEC dan mene
 
 ## 7. Event Loop
 `Event Loop` adalah aspek kontrol pusat dan konstruksi dalam program yang mengontrol dan mengirimkan peristiwa setelah peristiwa awal. Acara awal bisa apa saja, termasuk menekan tombol pada keyboard atau mengklik tombol pada program.
+Contoh :
+
 
 ## 8. Callbacks
 Dalam Javascript, fungsi `Callback` adalah fungsi yang diteruskan ke fungsi lain sebagai argumen. (Lihat poin 3). Fungsi ini kemudian dapat dipanggil selama eksekusi fungsi urutan yang lebih tinggi karena dalam javascript, fungsi adalah objek yang dapat diteruskan sebagai argumen.
@@ -80,3 +82,13 @@ Dari contoh diatas dapat dilihat bahwa kita mempassing fungsi katakanHai() kedal
 
 Eksekusi fungsi tersebut “dipause” pada baris (*) dan dilanjutkan ketika promise selesai, dengan result menjadi hasilnya. Jadi kode di atas menunjukkan “done!” dalam satu detik. Await benar-benar membuat JavaScript menunggu sampai promise selesai, lalu lanjutkan dengan hasilnya. Hal tersebut tidak membebani resource CPU apapun, karena mesin dapat melakukan pekerjaan lain sementara itu: eksekusi script lain, menangani event dan lain-lain.
 
+
+## Referensi
+https://medium.com/@codewithbnc/closure-in-javascript-d63673ccf220
+https://kodealgo.com/javascript/function/
+https://medium.com/@aryarifqipratama/mengenal-lebih-dalam-tentang-first-class-function-pada-javascript-9d12cb11febe
+https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function
+https://www.educative.io/answers/what-are-first-class-vs-higher-order-functions-in-javascript
+https://sekolahkoding.com/forum/apa-itu-execution-context-dan-execution-stack-pada-javascript
+https://muhammadfahri.com/hoisting-execution-scope/
+https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/
