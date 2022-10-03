@@ -32,7 +32,8 @@ Berikut adalah contoh IIFE dengan parameter.
 Kita bisa assign anonymous function ke dalam variabel, objek, dan array dimana isi function tersebut dapat di return apabila ditambahkan tanda kurung dibagian akhir sewaktu proses pemanggilan. Dengan memberi nama pada variabel maka akan membantu proses debug code nya. Berikut adalah contoh passing a function sebagai argumen.
 
 ## 4. Higher-order function
-`Higher Order Function` adalah sebuah fungsi yang didalamnya memiliki fungsi lain sebagai argument ataupun function yang nilainya dikembalikan sebagai hasil atau output. Fungsi yang terlibah sebagai argument atau nilai pada higher order function ini disebut juga sebagai callback function. Beberapa higher order function yang sering digunakan seperti find(), filter(), sort(), dan lainnya. Berikut ini adalah contoh dari higher order function.
+`Higher Order Function` adalah sebuah fungsi yang didalamnya memiliki fungsi lain sebagai argument ataupun function yang nilainya dikembalikan sebagai hasil atau output. Fungsi yang terlibah sebagai argument atau nilai pada higher order function ini disebut juga sebagai callback function. Beberapa higher order function yang sering digunakan seperti find(), filter(), sort(), dan lainnya. Array.filter() adalah salah satu metode dari higher-order function bawaan yang berfungsi untuk membuat array baru dengan mengoperasikan fungsi callback pada setiap anggota dengan mem-filter nilai-nilai didalam array yang sudah ada. Adapun argumen yang ada pada callback filter() adalah: value, index.
+Berikut ini adalah contoh dari higher order function.
 
 
 
