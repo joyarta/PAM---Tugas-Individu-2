@@ -22,15 +22,15 @@ Berikut adalah contoh IIFE tanpa parameter.
 
 Berikut adalah contoh IIFE dengan parameter.
 
+![3](https://user-images.githubusercontent.com/100962621/193518080-62e008cf-8dc8-4a58-b73e-8c2c44eb1e10.PNG)
 
+## 3. First-class function
+`First Class Function` adalah salah satu fungsi dalam javascript yang dapat menerapkan fungsi kedalam variabel, objek, ataupun array. Selain itu fungsi ini juga dapat di passing sebagai argument pada fungsi serta dapat juga mengembalikan fungsi. Berikut adalah contoh penerapan fungsi ke dalam variabel, objek, dan array.
 
-
-
-3. First-class function
-4. Higher-order function
-5. Execution Context
-6. Execution Stack
-7. Event Loop
-8. Callbacks
-9. Promises dan Async/Await
+## 4. Higher-order function
+## 5. Execution Context
+## 6. Execution Stack
+## 7. Event Loop
+## 8. Callbacks
+## 9. Promises dan Async/Await
 
