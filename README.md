@@ -32,12 +32,22 @@ Berikut adalah contoh IIFE dengan parameter.
 Kita bisa assign anonymous function ke dalam variabel, objek, dan array dimana isi function tersebut dapat di return apabila ditambahkan tanda kurung dibagian akhir sewaktu proses pemanggilan. Dengan memberi nama pada variabel maka akan membantu proses debug code nya. Berikut adalah contoh passing a function sebagai argumen.
 
 ## 4. Higher-order function
-`Higher Order Function` adalah sebuah fungsi yang didalamnya memiliki fungsi lain sebagai argument ataupun function yang nilainya dikembalikan sebagai hasil atau output. Fungsi yang terlibah sebagai argument atau nilai pada higher order function ini disebut juga sebagai callback function. Beberapa higher order function yang sering digunakan seperti find(), filter(), sort(), dan lainnya. Array.filter() adalah salah satu metode dari higher-order function bawaan yang berfungsi untuk membuat array baru dengan mengoperasikan fungsi callback pada setiap anggota dengan mem-filter nilai-nilai didalam array yang sudah ada. Adapun argumen yang ada pada callback filter() adalah: value, index.
+`Higher Order Function` adalah sebuah fungsi yang didalamnya memiliki fungsi lain sebagai argument ataupun function yang nilainya dikembalikan sebagai hasil atau output. Fungsi yang terlibah sebagai argument atau nilai pada higher order function ini disebut juga sebagai callback function. Beberapa higher order function yang sering digunakan seperti find(), filter(), sort(), dan lainnya. Berikut ini adalah contoh dari higher order function.
+
+![6](https://user-images.githubusercontent.com/100962621/193540547-32c7d76d-fb0f-4404-b02b-d903eeacfa8b.PNG)
+
+Array.filter() adalah salah satu metode dari higher-order function bawaan yang berfungsi untuk membuat array baru dengan mengoperasikan fungsi callback pada setiap anggota dengan mem-filter nilai-nilai didalam array yang sudah ada. Adapun argumen yang ada pada callback filter() adalah: value, index.
 Berikut ini adalah contoh dari higher order function.
 
 
 
 ## 5. Execution Context
+`Execution Context` didefinsikan sebagai konteks atau lingkungan dimana javascript di eksekusi. Execution Context merupakan pembungkus yang mengelola code yang sedang di jalankan. Execution Context terbagi menjadi 2 yaitu Global Execution Context dan Local Execution Context. Dan dalam javascript terdapat 2 fase (2 Phase) pada saat Execution Context yaitu creation phase dan execution phase. Ketika javascript pertama kali di eksekusi, ia akan menjalankan Creation Phase yaitu javascript mengangkat(menghoisting) seluruh variabel dan function ke atas atau dalam visualisasi ke dalam global frame, kemudian menginisiasi variabelnya dengan undefined dan menginisiasi function dengan function itu sendiri. Setelah Creation Phase dijalankan javascript akan menjalankan code secara synchron(Sinkronis) dari atas kebawah dan disinilah Execution Phase terjadi. Lebih jelasnya berikut adalah contoh kasusnya :
+
+
+
+
+
 ## 6. Execution Stack
 ## 7. Event Loop
 ## 8. Callbacks
