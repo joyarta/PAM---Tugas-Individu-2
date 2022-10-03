@@ -5,6 +5,10 @@ Atau bisa disebut juga sebagai kombinasi antara fungsi dan lingkungan leksikal (
 
 Contoh : 
 
+![1](https://user-images.githubusercontent.com/100962621/193505774-7337d6b8-02c3-45cd-88e8-b176501bd1eb.PNG)
+
+Dalam contoh diatas, mendeklarasikan
+
 
 
 2. Immediately Invoked Function Expression
