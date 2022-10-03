@@ -13,7 +13,11 @@ fungsi `panggilUniv` sebagai fungsi pemanggilan.
 ## 2. Immediately Invoked Function Expression (IIFE)
 `Immediately Invoked Function Expression (IIFE)` merupakan cara pemanggilan fungsi di javascript tanpa mendefinisikan fungsi itu sebelumnya. Atau dapat juga diartikan
 fungsi yang memanggil dirinya sendiri. Untuk membuat IIFE kita bisa menggunakan dua pasang kurung buka dan tutup berdampingan `(function) (parameter)`.
-Kurung pertama adalah tempat untuk
+Kurung pertama adalah tempat untuk mendeklarasikan Anonymous Function Expression dan kurung kedua digunakan untuk memanggil fungsi tersebut. Jika fungsi memiliki
+parameter maka kita bisa meneruskan nilai atau argumen ke dalam kurung kedua.
+Berikut adalah contoh IIFE tanpa parameter.
+
+
 
 
 3. First-class function
