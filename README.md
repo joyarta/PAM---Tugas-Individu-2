@@ -10,9 +10,12 @@ Contoh :
 Dalam contoh diatas, mendeklarasikan variabel lokal yang disebut `universitas` dan membuat fungsi `tampilUniv` sebagai fungsi dalamnya. Selain itu, terdapat pula
 fungsi `panggilUniv` sebagai fungsi pemanggilan.
 
+## 2. Immediately Invoked Function Expression (IIFE)
+`Immediately Invoked Function Expression (IIFE)` merupakan cara pemanggilan fungsi di javascript tanpa mendefinisikan fungsi itu sebelumnya. Atau dapat juga diartikan
+fungsi yang memanggil dirinya sendiri. Untuk membuat IIFE kita bisa menggunakan dua pasang kurung buka dan tutup berdampingan `(function) (parameter)`.
+Kurung pertama adalah tempat untuk
 
 
-2. Immediately Invoked Function Expression
 3. First-class function
 4. Higher-order function
 5. Execution Context
